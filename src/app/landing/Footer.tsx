@@ -16,9 +16,9 @@ export default function Footer() {
                         <SocialMedia />
                     </div>
 
-                    <div className="mt-12">
+                    <div className="mt-2">
 
-                        <Link href="https://maps.app.goo.gl/SuAegbbxTdGhsqLk7" >
+                       {/* <Link href="https://maps.app.goo.gl/SuAegbbxTdGhsqLk7" >
                            <span className="inline-block p-3 text-polkadot-rose rounded-full bg-gray-800">
                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                                   stroke="currentColor" className="w-5 h-5">
@@ -30,7 +30,7 @@ export default function Footer() {
                                 </span>
 
                         </Link>
-
+*/}
 
                         <h2 className="mt-4 text-base font-medium text-polkadot-rose">Endereço da FUTURECOM:</h2>
                         <p className="mt-2 text-sm text-gray-400">São Paulo Expo</p>
@@ -38,10 +38,18 @@ export default function Footer() {
                         <p className="mt-2 text-sm text-gray-400"> Vila Água Funda, São Paulo - SP, 04329-900</p>
                     </div>
 
+                    <div>
+                        <h2 className="mt-4 text-base font-medium text-polkadot-rose">Polkadot Business Development
+                            Team:</h2>
+                        <p className="mt-2 text-sm text-gray-400"><Link href="mailto:johnrhodel@polkadotbrasil.com"> John Rhodel</Link> </p>
+                        <p className="mt-2 text-sm text-gray-400"><Link href="mailto:gustavo@polkadotbrasil.com"> Gustavo Joppert</Link>   </p>
+                        <p className="mt-2 text-sm text-gray-400"><Link href="mailto:gabrielbonugli@polkadotbrasil.com"> Gabriel Bonugli</Link>  </p>
+                    </div>
+
                 </div>
 
                 <div id="mapa">
-                    <div className="overflow-hidden rounded-lg lg:col-span-2 h-96 ">
+                <div className="overflow-hidden rounded-lg lg:col-span-2 h-96 ">
                         <iframe width="100%" height="100%" frameBorder="0" title="map" marginHeight={0} marginWidth={0}
                                 scrolling="no"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8370678653637!2d-46.63223132357891!3d-23.646005364709442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5adda4c3cb95%3A0x31916ce58f719167!2sS%C3%A3o%20Paulo%20Expo!5e0!3m2!1spt-BR!2sus!4v1726521350509!5m2!1spt-BR!2sus"></iframe>
