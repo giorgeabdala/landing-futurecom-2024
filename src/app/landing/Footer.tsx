@@ -32,10 +32,10 @@ export default function Footer() {
                         </Link>
 
 
-                        <h2 className="mt-4 text-base font-medium text-polkadot-rose">Endereço da Blockchain Rio:</h2>
-                        <p className="mt-2 text-sm text-gray-400">Expomag</p>
-                        <p className="mt-2 text-sm text-gray-400">R. Beatriz Larragoiti Lucas, s/n </p>
-                        <p className="mt-2 text-sm text-gray-400">Cidade Nova, Rio de Janeiro - RJ 20211-175</p>
+                        <h2 className="mt-4 text-base font-medium text-polkadot-rose">Endereço da FUTURECOM:</h2>
+                        <p className="mt-2 text-sm text-gray-400">São Paulo Expo</p>
+                        <p className="mt-2 text-sm text-gray-400">Rodovia dos Imigrantes, 1,5 km </p>
+                        <p className="mt-2 text-sm text-gray-400"> Vila Água Funda, São Paulo - SP, 04329-900</p>
                     </div>
 
                 </div>

@@ -19,9 +19,9 @@ export default function Landing() {
         <Pagina className="flex flex-col text-white">
             <Logo />
             {/*<Presentation />*/}
-          {/*  <Networking />*/}
-            <Ticket />
-{/*            <DiscoverTwo />*/}
+           {/* <Networking />*/}
+           {/* <Ticket />*/}
+           <DiscoverTwo />
             <LastYear />
 
           {/*  <Discover />

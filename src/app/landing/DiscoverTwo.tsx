@@ -1,5 +1,6 @@
 import Area from "@/app/components/Area";
 import Image from 'next/image'
+import Link from "next/link";
 
 
 export default function DiscoverTwo() {
@@ -16,9 +17,9 @@ export default function DiscoverTwo() {
 
                     <p className="hidden xl:block"><span className="font-bold">Mais de 300 palestrantes,</span> contando com alguns dos especialistas mais renomados do Brasil.
                     </p>
-                    <p>Para acessar a programação completa do evento, clique no botão abaixo.</p>
+                    <p>Para acessar a programação completa do evento,  <Link href="https://www.futurecom.com.br/pt/Congresso/Future-Congress.html">clique aqui. </Link> </p>
                         <p>Junte-se a nós e seja parte da transformação digital que está moldando o futuro. </p>
-                    <p> Esperamos por você no Blockchain Rio Festival 2024!</p>
+
 
                 </div>
 

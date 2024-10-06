@@ -11,7 +11,7 @@ export default function SocialMedia() {
             className="flex gap-4 text-polkadot-rose "
         >
             {/* eslint-disable-next-line react/jsx-no-undef */}
-            <Link href="https://www.instagram.com/polkadotbrasil/">
+            <Link href="https://www.instagram.com/eventospolkadot/">
                 <Instagram className=" hover:text-white cursor-pointer" size="34" />
             </Link>
             <Link href="https://twitter.com/polkadot_brasil?s=20">
